@@ -3,8 +3,9 @@
 <head>
     <title>Wordle</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/custom_page.css">
+
     <link rel="stylesheet" href="css/menu.css">
     <script src="js/animals.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
