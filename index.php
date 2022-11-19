@@ -6,9 +6,10 @@
 <head>
     <title>Wordle</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale = 1.0">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/custom_page.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/animals.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -17,7 +18,7 @@
 <header style="background-color:#ADD8E6">
     <div class="header_bar">
         <div id="main_screen_logo">
-            <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:80px;width:auto;"></a>
+            <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:60%;width:80%;"></a>
         </div>
         <div id="admin_access">
             <ul id="admin_profile">
@@ -32,6 +33,13 @@
                 <h1 id="title">Wordle</h1>
             </button>
         </div>
+        
+        <div id="menu-toggle-button">
+           <button class="modalbtn">
+               <img class="img_button" src="images/icons8-menu-48.png" alt="Menu Icon">
+           </button>
+        </div>
+       
         <div id="menu_buttons">
             <div id="help_button">
                 <button onclick="showHelpModal()" class="modalbtn">
