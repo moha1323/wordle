@@ -60,7 +60,7 @@
     <h1>Welcome</h1>
     <form action="index.php" method="post" onsubmit="processLogin();return false;">
         <div class="text_field">
-            <input id="email_field" type="email" name="email" required autocomplete="on">
+            <input id="email_field" type="email" name="email" required autocomplete="off">
             <span></span>
             <label>Email:</label>
         </div>
