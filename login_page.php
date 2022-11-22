@@ -13,12 +13,12 @@
 <header>
     <div class="header_bar">
         <div id="main_screen_logo">
-            <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:80px;width:auto;"></a>
+            <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:60%;width:80%;"></a>
         </div>
         <div>
-            <button onclick="window.location.href='index.php'">
+            <a href="index.php">
                 <h1 id="title">Login</h1>
-            </button>
+            </a>
         </div>
         <div id="menu_buttons">
             <div id="help_button">

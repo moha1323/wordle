@@ -46,11 +46,13 @@
     <header style="background-color:white">
         <div id="secondary_screen_buttons">
             <div id="back_button">
-                <a href="add_custom_word.php"><img src="images/back_icon.png" alt="Back Icon" style="Display:Block;width:70px;height:70px;"></a>
+                <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:60%;width:80%;"></a>
             </div>
         </div>
-        <div id="game_title">
-            <p>Custom Word URL</p>
+        <div>
+            <a href="index.php">
+                <h1 id="title">Custom Word URL</h1>
+            </a>
         </div>
         <div id="secondary_screen_logo">
             <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:80px;width:auto;"></a>

@@ -29,9 +29,9 @@
             </ul>
         </div>
         <div>
-            <button onclick="window.location.href='index.php'">
+            <a href="index.php">
                 <h1 id="title">Wordle</h1>
-            </button>
+            </a>
         </div>
         
         <div id="menu-toggle-button">

@@ -28,7 +28,7 @@
                 <a id="toggle" class="toggle-vis" data-column="5">Clue</a> -
                 <a id="toggle" class="toggle-vis" data-column="6">Modify</a> -
                 <a id="toggle" class="toggle-vis" data-column="7">Delete</a> -
-                <a id="toggle" class="toggle-vis" data-column="8">Play</a> -
+                <a id="toggle" class="toggle-vis" data-column="8">Play</a>
             </div> <br>
 
             <?php
