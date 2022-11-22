@@ -14,17 +14,20 @@
 }
 
 .header_bar{
-    /* width: 100%; */
+    width: 100%;
     height: 120px;
     background: #ADD8E6;
 }
 
 #main_screen_logo {
     position: absolute;
-    margin-left: 1%;
-    margin-top: 1%;
-    width: 320px;
-    height: 80px;
+    margin-left: .8%;
+    margin-top: .8%;
+}
+
+#telugu_logo {
+    height: 100%;
+    width: 80%;
 }
 
 #menu_buttons {
@@ -67,6 +70,7 @@
     width: 70px;
     height: 70px;
 }
+
 .dropbtn, .modalbtn {
     background-color: #ADD8E6;
     border-style: none;
@@ -108,7 +112,6 @@
     background-color: #ddd;
 }
 
-
 #stat_modal_title {
     width: 100%;
     height: 50px;
@@ -145,7 +148,6 @@
     text-align: center;
     font-size: 12px;
 }
-
 
 .modal {
     display: none;
@@ -225,6 +227,7 @@
     margin-left: auto;
     margin-right: 50px;
 }
+
 .btn-download:hover{
     box-shadow: 0 5px 15px rgba(0, 255, 64, 0.4);
 }
@@ -243,14 +246,9 @@
     font-size: 16px;
     margin-right: auto;
 }
+
 .btn-copy:hover{
     box-shadow: 0 5px 15px rgba(0, 255, 64, 0.4);
-}
-
-@media screen and (max-width: 900px) {
-    .header_bar{
-        width: 900px;
-    }
 }
 
 #admin_access {
@@ -259,7 +257,7 @@
 
 #admin_profile {
     position: absolute;
-    top: 2.4%;
+    top: 2.2%;
     left: 250px;
     margin: 0;
     padding: 0;
@@ -287,11 +285,271 @@
     visibility: hidden;
 }
 
-#admin_name{
+#admin_name {
     font-size: 17px;
     color: white;
 }
 
 #admin_button:hover #admin_name {
     visibility: visible;
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+    #title{
+        margin-top: 10px;
+        position: absolute;
+        left: 45%;
+        align-content: center;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        text-align: center;
+        color: black;
+        max-width: 100%;
+    }
+
+    .header_bar {
+        width: 100%;
+        height: 100%;
+    }
+
+    #main_screen_logo {
+        position: absolute;
+        margin-left: 1.5%;
+        margin-top: 2%;
+    }
+
+    #telugu_logo {
+        height: 80%;
+        width: 60%;
+    }
+
+    #admin_access {
+        display: none;
+    }
+
+    #admin_profile {
+        position: absolute;
+        top: 1.8%;
+        left: 190px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    #admin_button {
+        list-style: none;
+        width: 60px;
+        height: 55px;
+        background: #787c7e;
+        border-radius: 40px;
+    }
+
+    #admin_button:hover {
+        width: 120px;
+    }
+
+    #admin_name {
+        display: inline-flex;
+        position: absolute;
+        top: 16px;
+        left: 58px;
+        text-decoration: none;
+        visibility: hidden;
+    }
+
+    #admin_name {
+        font-size: 11px;
+        color: white;
+    }
+
+    #admin_button:hover #admin_name {
+        visibility: visible;
+    }
+
+    #admin_icon {
+        height: 49px;
+        width: 49px;
+    }
+
+    #menu_buttons {
+        max-width: 100%;
+        height: 80px;
+    }
+
+    #help_button {
+        width: 50px;
+        height: 50px;
+    }
+
+    #stat_button {
+        width: 50px;
+        height: 50px;
+    }
+
+    #profile_button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img_button{
+        width: 50px;
+        height: 50px;
+    }
+
+    .dropdown-content {
+        min-width: 120px;
+    }
+
+    .dropdown-content a, p {
+        font-size: 13px;
+        color: black;
+        padding: 6px 8px;
+        text-decoration: none;
+        display: block;
+    }
+}
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+    #title{
+        margin-top: .1%;
+        position: absolute;
+        left: 55%;
+        align-content: center;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        text-align: center;
+        color: black;
+        max-width: 100%;
+    }
+
+    .header_bar {
+        width: 121%;
+        height: 4em;
+    }
+
+    #main_screen_logo {
+        position: absolute;
+        margin-left: 1.5%;
+        margin-top: 2.8%;
+    }
+
+    #telugu_logo {
+        height: 50%;
+        width: 40%;
+    }
+
+    #admin_access {
+        display: none;
+    }
+
+    #admin_profile {
+        display: none;
+    }
+
+    #admin_button {
+        display: none;
+    }
+
+    #admin_name {
+        display: none;
+    }
+
+    #admin_name {
+        display: none;
+    }
+
+    #admin_icon {
+        display: none;
+    }
+
+    #menu_buttons {
+        max-width: 100%;
+        height: 80px;
+    }
+
+    #help_button {
+        display: none;
+    }
+
+    #stat_button {
+        display: none;
+    }
+
+    #profile_button {
+        display: none;
+    }
+
+    .img_button{
+        display: none;
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown-content a, p {
+        display: none;
+    }
+
+    .menu_dropdown {
+        position: absolute;
+        top: 0;
+        right: 2%;
+    }
+
+    .toggle_button{
+        position: absolute;
+        top: 1.3rem;
+        right: -4.5rem;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+
+    .toggle_button .bar {
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    .toggle_dropdown-content{
+        display: none;
+        position: absolute;
+        top: 2.8rem;
+        right: -5.5rem;
+        background-color: #f1f1f1;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .toggle_dropdown-content a, p {
+        font-size: 13px;
+        color: black;
+        padding: 6px 8px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /*.toggle_dropdown-content a:hover{*/
+    /*    background-color: white;*/
+    /*}*/
+
+    .menu_dropdown:hover .toggle_dropdown-content{
+        display: block;
+    }
+
+    /*.menu_dropdown:hover .toggle_button{*/
+    /*    background-color: white;*/
+    /*}*/
 }

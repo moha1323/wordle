@@ -7,11 +7,10 @@ p, div, pre {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .back{
     position: absolute;
-    top: 165px;
-    left: 2.5%;
+    top: 10.5rem;
+    left: 2.8rem;
     transform: translate(-50%,-50%);
     margin: 0;
     padding: 0;
@@ -106,8 +105,6 @@ p, div, pre {
     left: 45%;
 }
 
-
-
 #secondary_screen_logo{
     margin: 0;
     position: absolute;
@@ -189,7 +186,6 @@ body{
     color: #787c7e;
     padding: 0 0 20px 0;
 }
-
 
 form .text_field{
     position: relative;
@@ -278,10 +274,6 @@ input[type="submit"]:hover{
 
 }
 
-/*.table_title{*/
-/*    text-align: center;*/
-/*}*/
-
 .title_border{
     border-top: 1px solid black;
 }
@@ -289,7 +281,6 @@ input[type="submit"]:hover{
 p, a {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* .modal {
     display: none;
@@ -317,43 +308,31 @@ p, a {
 
 #capability{
     position: absolute;
-
-    top: 20%;
+    top: 13rem;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: auto;
-
+    width: 425px;
+    background: white;
+    border-radius: 10px;
+    padding: 0px 0px 14px;
 }
 
-#tools_title{
-    /*position: absolute;*/
-    /*top: 10%;*/
+#capability h1{
     text-align: center;
-}
-
-.admin_btn{
-    background-color: white;
-    border-style: none;
-    cursor: pointer;
+    color: #787c7e;
+    padding: 8px 0 10px 0;
+    border-bottom: 1px solid silver;
 }
 
 #report_button{
-    position: absolute;
-    top: 120%;
-    left: 40%;
+    display: inline-block;
+    margin-left: 8%;
+    padding: 14px 4px 6px 0;
 }
 
 #import_button{
-    position: absolute;
-    top: 120%;
-    left: 51%;
-}
-
-#validation_button{
-    position: absolute;
-    top: 240%;
-    left: 43%;
+    display: inline-block;
+    padding: 14px 0 6px 4px;
 }
 
 .function{
@@ -374,8 +353,6 @@ p, a {
 
 #import_modal{
     display: none;
-
- 
 }
 
 #report_modal{
@@ -401,9 +378,9 @@ p, a {
     height: 2.1em;
     padding-left: 2.8em;
     padding-right: 0.9em;
-   }
+}
    
-   .Ibutton .icon {
+.Ibutton .icon {
     background: #fff;
     height: 2em;
     width: 2em;
@@ -414,22 +391,115 @@ p, a {
     justify-content: center;
     left: 0.4em;
     transition: all 0.5s;
-   }
+}
    
-   .icon svg {
+.icon svg {
     margin-left: 0.4em;
     transition: all 0.5s;
     color: #2CA0D9;
     width: 1.2rem;
     height: 1.2rem;
-   }
+}
    
-   .Ibutton:hover .icon svg {
+.Ibutton:hover .icon svg {
     transform: rotate(360deg);
-   }
+}
    
-   .Ibutton:hover .icon {
+.Ibutton:hover .icon {
     width: calc(100% - 0.85rem);
     border-radius: 0.5em;
-   }
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+    .back{
+        top: 8.6rem;
+        left: 2.4rem;
+    }
+
+    .back li{
+        width: 60px;
+        height: 60px;
+    }
+
+    .back li span{
+        width: 15px;
+        height: 15px;
+    }
+
+    .back li.prev span:before{
+        width: 32px;
+        height: 4px;
+    }
+
+    #capability{
+        top: 11rem;
+        left: 54%;
+        width: 25em;
+    }
+
+    #capability h1{
+        font-size: 24px;
+    }
+
+    #report_button p {
+        font-size: 14px;
+    }
+
+    #import_button{
+        margin-right: 8%;
+    }
+
+    #import_button p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .back{
+        position: absolute;
+        top: 5.5rem;
+        left: 1.5rem;
+    }
+
+    .back li{
+        width: 40px;
+        height: 40px;
+    }
+
+    .back li span{
+        width: 12px;
+        height: 12px;
+    }
+
+    .back li.prev span:before{
+        width: 22px;
+    }
+
+    #capability{
+        top: 9.8rem;
+        left: 51%;
+        width: 12em;
+    }
+
+    #capability h1{
+        font-size: 18px;
+    }
+
+    #report_button{
+        padding: 12px 0 0 10px;
+    }
+
+    #report_button p {
+        font-size: 12px;
+    }
+
+    #import_button{
+        margin-right: 8%;
+        padding: 12px 0 0 27px;
+    }
+
+    #import_button p {
+        font-size: 12px;
+    }
+}
 

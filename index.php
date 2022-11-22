@@ -17,17 +17,20 @@
 <header style="background-color:#ADD8E6">
     <div class="header_bar">
         <div id="main_screen_logo">
-            <a href="https://telugupuzzles.com"><img src="images/logo.png" alt="10000 Icon" style="height:80px;width:auto;"></a>
+            <a href="https://telugupuzzles.com"><img id="telugu_logo" src="images/logo.png" alt="10000 Icon"></a>
         </div>
         <div id="admin_access">
             <ul id="admin_profile">
                 <li id="admin_button"><span>
-                        <img src="images/admin_icon.png"><a id="admin_name" href="admin.php"></a>
+                        <img id="admin_icon" src="images/admin_icon.png"><a id="admin_name" href="admin.php"></a>
                     </span>
                 </li>
             </ul>
         </div>
         <div>
+<!--            <a href="index.php">-->
+<!--                <h1 id="title">Wordle</h1>-->
+<!--            </a>-->
             <button onclick="window.location.href='index.php'">
                 <h1 id="title">Wordle</h1>
             </button>
@@ -55,7 +58,23 @@
                     <a id="profile_menu_5" href="login_page.php">Log In</a>
                 </div>
             </div>
-        </div>
+<!--            <div class="menu_dropdown">-->
+<!--                <a href="#" class="toggle_button">-->
+<!--                    <span class="bar"></span>-->
+<!--                    <span class="bar"></span>-->
+<!--                    <span class="bar"></span>-->
+<!--                </a>-->
+<!--                <div id="toggle_dropdown" class="toggle_dropdown-content">-->
+<!--                    <p id="toggle_menu_1" onclick="showHelpModal()">Help</p>-->
+<!--                    <p id="toggle_menu_2" onclick="showStatModal()">Stats</p>-->
+<!--                    <a id="toggle_menu_3">Access Level: GUEST</a>-->
+<!--                    <p id="toggle_menu_4" style="color:darkGray">Create Custom Word</p>-->
+<!--                    <p id="toggle_menu_5" style="color:darkGray">Puzzle Word List</p>-->
+<!--                    <p id="toggle_menu_6" style="color:darkGray">Custom Word List</p>-->
+<!--                    <a id="toggle_menu_7" href="login_page.php">Log In</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </header>
 
